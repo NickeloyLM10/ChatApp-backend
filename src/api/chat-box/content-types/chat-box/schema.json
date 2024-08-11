@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chat_boxes",
+  "info": {
+    "singularName": "chat-box",
+    "pluralName": "chat-boxes",
+    "displayName": "chatBox",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Chats": {
+      "type": "text"
+    },
+    "uid": {
+      "type": "uid",
+      "targetField": "Chats"
+    }
+  }
+}

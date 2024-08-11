@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "userids",
+  "info": {
+    "singularName": "userid",
+    "pluralName": "userids",
+    "displayName": "userid"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true,
+      "unique": true,
+      "minLength": 10
+    },
+    "password": {
+      "type": "password",
+      "required": true,
+      "minLength": 6
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "minLength": 1
+    }
+  }
+}
